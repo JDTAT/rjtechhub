@@ -731,7 +731,22 @@ section.contact input[type="text"] {
   color: #959494;
   margin: 0 0 20px 0;
 }
+section.contact input[type="email"] {
+  background: #eeeeee;
+  width: 100%;
+  padding: 15px 20px;
+  border: 0 none;
+  outline: 0;
+  text-transform: uppercase;
+  font-size: 0.813em;
+  color: #959494;
+  margin: 0 0 20px 0;
+}
 section.contact input[type="text"]:focus {
+  background: #000;
+  color: #fff;
+}
+section.contact input[type="email"]:focus {
   background: #000;
   color: #fff;
 }
